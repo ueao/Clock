@@ -62,12 +62,13 @@ class ViewController: UIViewController {
         let myCalendar: NSCalendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
         
         //取得するコンポーネントを決める.
-        let myComponetns = myCalendar.components(NSCalendarUnit.CalendarUnitYear  |
-            NSCalendarUnit.CalendarUnitMonth  |
-            NSCalendarUnit.CalendarUnitDay    |
-            NSCalendarUnit.CalendarUnitHour   |
-            NSCalendarUnit.CalendarUnitMinute |
-            NSCalendarUnit.CalendarUnitSecond,fromDate: myDate)
+        let myComponetns = myCalendar.components([NSCalendarUnit.Year,NSCalendarUnit.Month, NSCalendarUnit.Day, NSCalendarUnit.Hour, NSCalendarUnit.Minute,NSCalendarUnit.Second],fromDate: myDate)
+//            |
+//            NSCalendarUnit.CalendarUnitMonth  |
+//            NSCalendarUnit.CalendarUnitDay    |
+//            NSCalendarUnit.CalendarUnitHour   |
+//            NSCalendarUnit.CalendarUnitMinute |
+//            NSCalendarUnit.CalendarUnitSecond,fromDate: myDate)
         
         
         
