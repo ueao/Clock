@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         let myCalendar: NSCalendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
         
         //取得するコンポーネントを決める.
-        let myComponetns = myCalendar.components([NSCalendarUnit.Year,NSCalendarUnit.Month, NSCalendarUnit.Day, NSCalendarUnit.Hour, NSCalendarUnit.Minute,NSCalendarUnit.Second],fromDate: myDate)
+        let myComponetns = myCalendar.components([NSCalendarUnit.Year, NSCalendarUnit.Month, NSCalendarUnit.Day, NSCalendarUnit.Hour, NSCalendarUnit.Minute,NSCalendarUnit.Second],fromDate: myDate)
 //            |
 //            NSCalendarUnit.CalendarUnitMonth  |
 //            NSCalendarUnit.CalendarUnitDay    |
@@ -73,9 +73,9 @@ class ViewController: UIViewController {
         
         
         
-        var hour:Int = myComponetns.hour
-        var minute:Int = myComponetns.minute
-        var second:Int = myComponetns.second
+        let hour:Int = myComponetns.hour
+        let minute:Int = myComponetns.minute
+        let second:Int = myComponetns.second
         
         if (hour>9) {
             hour2 = hour/10
@@ -141,6 +141,7 @@ class ViewController: UIViewController {
         default:
             break
         }
+        
         switch(hour1){
         case 0:
             hour1ImageView.image = image0

@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		2A081C2A1A9762CD009C8F5E /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A081C2E1A9762CD009C8F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A081C2F1A9762CD009C8F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		2A081C2F1A9762CD009C8F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A081C311A9762CD009C8F5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A081C341A9762CD009C8F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A081C361A9762CD009C8F5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -104,6 +104,7 @@
 				2A3B9F611A97630600C6B0FE /* images */,
 				2A081C311A9762CD009C8F5E /* ViewController.swift */,
 				2A081C331A9762CD009C8F5E /* Main.storyboard */,
+				2A081C2F1A9762CD009C8F5E /* AppDelegate.swift */,
 				2A081C361A9762CD009C8F5E /* Images.xcassets */,
 				2A081C381A9762CD009C8F5E /* LaunchScreen.xib */,
 				2A081C2D1A9762CD009C8F5E /* Supporting Files */,
@@ -141,7 +142,6 @@
 			children = (
 				2A81C4BF1A976466000BA1D7 /* haikei.png */,
 				2A3B9F621A97630600C6B0FE /* 0.png */,
-				2A081C2F1A9762CD009C8F5E /* AppDelegate.swift */,
 				2A3B9F631A97630600C6B0FE /* 1.png */,
 				2A3B9F641A97630600C6B0FE /* 2.png */,
 				2A3B9F651A97630600C6B0FE /* 3.png */,
